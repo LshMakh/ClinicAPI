@@ -1,0 +1,92 @@
+[
+  {
+    "ContainingType": "HospitalAPI.Controller.DoctorController",
+    "Method": "GetDoctorCards",
+    "RelativePath": "api/Doctor/GetDoctorCards",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAPI.Controller.DoctorController",
+    "Method": "RegisterDoctor",
+    "RelativePath": "api/Doctor/RegisterDoctor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctor",
+        "Type": "HospitalAPI.Models.Doctor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAPI.Controller.PatientController",
+    "Method": "RegisterPatient",
+    "RelativePath": "api/Patient/RegisterPatient",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "HospitalAPI.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAPI.Controller.UserController",
+    "Method": "Authenticate",
+    "RelativePath": "api/User/Authenticate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "logindata",
+        "Type": "HospitalAPI.DTO_s.UserLoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAPI.Controller.UserController",
+    "Method": "CheckEmailExists",
+    "RelativePath": "api/User/CheckEmailExists/check-email/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAPI.Controller.UserController",
+    "Method": "GetUserInfo",
+    "RelativePath": "api/User/GetUserInfo/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
